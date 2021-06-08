@@ -173,7 +173,7 @@ def choose_menu():
 	elif r=="1":
 		friend()
 	elif r=="2":
-		publlik()
+		publik()
 	elif r=="3":
 		follow()
 	elif r=="4":
