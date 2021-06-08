@@ -6,13 +6,13 @@
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,json,concurrent.futures
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
-P = "\x1b[0;37m" # putih
-M = "\x1b[0;31m" # merah
-H = "\x1b[0;32m" # hijau
-K = "\x1b[0;33m" # kuning
-B = "\x1b[0;34m" # biru
-U = "\x1b[0;35m" # ungu
-BM = "\x1b[0;36m" # biru muda
+p = "\x1b[0;37m" # putih
+m = "\x1b[0;31m" # merah
+h = "\x1b[0;32m" # hijau
+k = "\x1b[0;33m" # kuning
+b = "\x1b[0;34m" # biru
+u = "\x1b[0;35m" # ungu
+o = "\x1b[0;36m" # biru muda
 
 if ("linux" in sys.platform.lower()):
 
